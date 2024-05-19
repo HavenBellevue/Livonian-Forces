@@ -1,0 +1,152 @@
+<Entities>
+	<Entity name="TokarevLIVCRU" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/LIVCRU_tigerstripe.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy" unit="LIVONIANS" class="TokarevLIVCRU">
+
+			<Id name="TokarevLIVCRU" portrait="data/textures/portraits/ranger16.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Equipment>
+				<Item name="M16A4"/>
+				<Item name="IronSights"/>
+				<Item name="M9 Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="Crowbar"/>
+				<Item name="HelmetACH"/>
+				<Item name="Rangers SFLCS Level III"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="GSHLIVCRU" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/LIVCRU_tigerstripe.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy" unit="LIVONIANS" class="GSHLIVCRU">
+
+			<Id name="GSHLIVCRU" portrait="data/textures/portraits/ranger20.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Equipment>
+				<Item name="M16A4"/>
+				<Item name="IronSights"/>
+				<Item name="M9 Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="Crowbar"/>
+				<Item name="HelmetACH"/>
+				<Item name="Rangers SFLCS Level III"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="GlockLIVCRU" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/LIVCRU_tigerstripe.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy" unit="LIVONIANS" class="GlockLIVCRU">
+
+			<Id name="GlockLIVCRU" portrait="data/textures/portraits/ranger47.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Equipment>
+				<Item name="M16A4"/>
+				<Item name="IronSights"/>
+				<Item name="M9 Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="Crowbar"/>
+				<Item name="HelmetACH"/>
+				<Item name="Rangers SFLCS Level III"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="1911LIVCRU" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/LIVCRU_tigerstripe.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy" unit="LIVONIANS" class="1911LIVCRU">
+
+			<Id name="1911LIVCRU" portrait="data/textures/portraits/ranger26.dds" gender="1" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Equipment>
+				<Item name="M16A4"/>
+				<Item name="IronSights"/>
+				<Item name="M9 Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="Crowbar"/>
+				<Item name="HelmetACH"/>
+				<Item name="Rangers SFLCS Level III"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="Livonian Riflemen" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/ranger_support.khm" diffuseTex="data/models/humans/LIVFOR_M81.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy" unit="LIVONIANS" class="Livonian Riflemen">
+
+			<Id name="Livonian Riflemen" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Equipment>
+				<Item name="M16A4"/>
+				<Item name="IronSights"/>
+				<Item name="M9 Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="Crowbar"/>
+				<Item name="HelmetACH"/>
+				<Item name="Rangers SFLCS Level III"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+</Entities>

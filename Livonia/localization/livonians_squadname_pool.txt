@@ -1,0 +1,19 @@
+@#squadnamelivonians=AMBER 2-1
+@#squadnamelivonians=STORK 1-4
+@#squadnamelivonians=BLAZE 4-2
+@#squadnamelivonians=LYNX 2-4
+@#squadnamelivonians=WOLF 2-2
+@#squadnamelivonians=WASP 2-3
+@#squadnamelivonians=THUNDER 0-1
+@#squadnamelivonians=HUNTER 1-1
+@#squadnamelivonians=HAWK 4-0
+@#squadnamelivonians=KITE 3-2
+@#squadnamelivonians=FOX 4-1
+@#squadnamelivonians=BEAR 1-2
+@#squadnamelivonians=GALE 1-3
+
+#for campaign New Day text
+@#daytext_BABY SEALS=Squeal!
+@#daytext_BABY SEALS=Growl!
+@#daytext_BABY SEALS=Bark!
+@#daytext_BABY SEALS=Honk!

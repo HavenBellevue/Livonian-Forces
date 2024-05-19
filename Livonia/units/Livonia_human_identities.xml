@@ -1,0 +1,59 @@
+<HumanIdentities>
+	<!-- male -->
+	<Portrait tex="data/textures/portraits/ranger16.dds" unit="LIVONIANS" class="TokarevLIVCRU" gender="0" customName="SEAL 1"/>
+	<Portrait tex="data/textures/portraits/ranger20.dds" unit="LIVONIANS" class="GSHLIVCRU" gender="0" customName="Shitfuck"/>
+	<Portrait tex="data/textures/portraits/ranger47.dds" unit="LIVONIANS" class="GlockLIVCRU" gender="0" customName="SEAL 3"/>
+	<Portrait tex="data/textures/portraits/ranger26.dds" unit="LIVONIANS" class="1911LIVCRU" gender="1" customName="FOGHORN"/>
+	<Portrait tex="data/textures/portraits/ranger1.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger9.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger12.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger6.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger33.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger31.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger43.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger46.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger53.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger58.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger9.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<Portrait tex="data/textures/portraits/ranger3.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="0"/>
+	<!-- female -->
+	<Portrait tex="data/textures/portraits/ranger13.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="1"/>
+	<Portrait tex="data/textures/portraits/ranger15.dds" unit="LIVONIANS" class="Livonian Riflemen" gender="1"/>
+
+	<UnitNames unit="LIVONIANS">
+		<Gender value="1">
+			<Name n="Edita"/>
+			<Name n="Sabina"/>
+			<Name n="Elina"/>
+			<Name n="Laima"/>
+			<Name n="Erika"/>
+			<Name n="Inga"/>
+			<Name n="Sofija"/>
+		</Gender>
+
+		<Gender value="0">
+			<Name n="Vitalijus"/>
+			<Name n="Ludvigs"/>
+			<Name n="Georgs"/>
+			<Name n="Matas"/>
+			<Name n="Ilja"/>
+			<Name n="Gustavs"/>
+			<Name n="Julius"/>
+			<Name n="Kristis"/>
+			<Name n="Pijus"/>
+			<Name n="Virgis"/>
+			<Name n="Tomas"/>
+			<Name n="Mykolas"/>
+			<Name n="Tadas"/>
+			<Name n="Filips"/>
+			<Name n="Viktoras"/>
+			<Name n="Andris"/>
+			<Name n="Vladimirs"/>
+			<Name n="Oskars"/>
+			<Name n="Gintaras"/>
+			<Name n="Jurgis"/>
+			<Name n="Ernests"/>
+			<Name n="Simas"/>
+		</Gender>
+	</UnitNames>
+</HumanIdentities>
