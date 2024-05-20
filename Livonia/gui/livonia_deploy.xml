@@ -1,0 +1,163 @@
+<GUIItems>
+
+    <EventActionBatch name="GAME_GUI_LOADTIME_ACTIONS">
+		<Action type="Show" target="LIVONIANS"/>
+	</EventActionBatch>
+
+	<Item name="LIVONIANS" origin="0 -312" hidden="true" align="rt" sizeX="380">
+		<OnOpen>
+			<Action type="AddMeToParent" target="#unit_header"/>
+		</OnOpen>
+
+        <!-- 
+            CRISIS RESPONSE
+            each guy has their own unique sidearm
+        -->
+		<Item origin="0 -74"  name="LIVONIA CRU" align="b">
+			<StaticImage origin="0 0">
+				<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="148" color="211e1dcc" align="t"/>
+
+				<StaticImage name="#ClassHeader" origin="0 0" align="t">
+					<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="46" color="f0f0f0"/>
+				</StaticImage>
+				<StaticImage origin="0 0" align="lt">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_class_diagonalbars.dds" color="0c0b0b33"/>
+				</StaticImage>
+				<StaticImage origin="-16 0" align="lt">
+					<RenderObject2D texture="data/textures/gui/square.tga" sizeX="8" sizeY="148" color="f97b0380"/>
+				</StaticImage>
+				<StaticText  name="ClassName" origin="-6 -2" text="CRISIS RESPONSE" align="rt" font="header_4" textColor="211e1d"/>
+				<StaticImage name="ClassIcon" origin="8 -7" align="lt">
+					<RenderObject2D texture="data/textures/gui/deploy/class_icon_blackops.dds"/>
+				</StaticImage>
+
+                <!-- Tokarev -->
+				<Item name="TokarevLIVCRU"  origin="-136 -97" align="t">
+					<StaticImage name="#slot0" origin="0 0">
+						<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+					</StaticImage>
+                    <!--
+					<StaticImage origin="37 -31">
+						<RenderObject2D texture="data/textures/gui/deploy/class_icon_nowheraki_leader.dds"/>
+					</StaticImage>
+                    -->
+				</Item>
+
+                <!-- GSh-18 -->
+				<Item name="GSHLIVCRU" origin="-46 -97" align="t">
+					<StaticImage name="#slot1" origin="0 0">
+						<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+					</StaticImage>
+                    <!--
+					<StaticImage origin="37 -31">
+						<RenderObject2D texture="data/textures/gui/deploy/class_icon_assaulter.dds"/>
+					</StaticImage>
+                    -->
+				</Item>
+
+                <!-- Glock -->
+				<Item name="GlockLIVCRU" origin="44 -97" align="t">
+					<StaticImage name="#slot2" origin="0 0">
+						<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+					</StaticImage>
+                    <!--
+					<StaticImage origin="37 -31">
+						<RenderObject2D texture="data/textures/gui/deploy/bpre_class_icon_commo.dds"/>
+					</StaticImage>
+                    -->
+				</Item>
+
+                <!-- 1911 -->
+				<Item name="1911LIVCRU" origin="134 -97" align="t">
+					<StaticImage name="#slot3" origin="0 0">
+						<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+					</StaticImage>
+                    <!--
+					<StaticImage origin="37 -31">
+						<RenderObject2D texture="data/textures/gui/deploy/bpre_class_icon_breacher.dds"/>
+					</StaticImage>
+                    -->
+				</Item>
+
+			</StaticImage>
+		</Item>
+
+        <!-- RIFLEMEN -->
+        <Item origin="0 -325"  name="LIVONIA RIFLES" align="b">
+			<StaticImage origin="0 0">
+				<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="334" color="211e1dcc" align="t"/>
+				<StaticImage name="#ClassHeader" origin="0 0" align="t">
+					<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="46" color="f0f0f0"/>
+				</StaticImage>
+				<StaticImage origin="0 0" align="lt">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_class_diagonalbars.dds" color="0c0b0b33"/>
+				</StaticImage>
+				<StaticImage origin="-16 0" align="lt">
+					<RenderObject2D texture="data/textures/gui/square.tga" sizeX="8" sizeY="334" color="f97b0380"/>
+				</StaticImage>
+				<StaticText  name="ClassName" origin="-6 -2" text="RIFLEMAN" align="rt" font="header_4" textColor="211e1d"/>
+				<StaticImage name="ClassIcon" origin="8 -7" align="lt">
+					<RenderObject2D texture="data/textures/gui/deploy/class_icon_nowheraki_militia.dds"/>
+				</StaticImage>
+
+            <Item name="Livonian Riflemen" origin="0 0" align="t">
+
+				<!-- ROW 1 -->
+				<StaticImage name="#slot4" origin="-136 -97">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot5" origin="-46 -97">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot6" origin="44 -97">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot7" origin="134 -97">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<!-- ROW 2 -->
+				<StaticImage name="#slot8" origin="-136 -187">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot9" origin="-46 -187">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot10" origin="44 -187">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot11" origin="134 -187">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+                <!-- ROW 3 -->
+				<StaticImage name="#slot12" origin="-136 -277">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot13" origin="-46 -277">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot14" origin="44 -277">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+				<StaticImage name="#slot15" origin="134 -277">
+					<RenderObject2D texture="data/textures/gui/deploy/deploy_trooperbackground_01.tga"/>
+				</StaticImage>
+
+			</Item>
+
+		</StaticImage>
+	</Item>
+
+    </Item> <!-- overall unit -->
+
+</GUIItems>
