@@ -1,0 +1,70 @@
+<Equipment>
+
+    <Bind eqp="TT 33 Livonia">
+		<to name="762x25FMJ_TT 33 Pistol"/>
+        <to name="TokarevLIVCRU"/>
+	</Bind>
+
+	<Firearm name="TT 33 Livonia" inventoryBinding="SecondaryWeapon" category="pistol" 
+			tooltip="@livonia_firearm_tt_33_name"
+            description="@livonia_firearm_tt_33_desc"
+			img="data/models/weapons/tt_33_ui.dds"
+			animationSet="pistol"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<RenderObject3D model="data/models/weapons/tt_33.khm" attachSlot="prop_sidearm" diffuseTex="data/models/weapons/tt_33.dds" skipGOSSAO="true"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="8"
+			closedBolt="0"
+
+			cyclicReload="0"
+			reloadTime="2000"
+			reloadEmptyTime="3000"
+			changeInTime="1000"
+			changeOutTime="1200"
+			readyTime="150"
+			guardTime="100"
+
+			accuracyStart="75"
+			accuracyEnd="10"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_762x25_name"
+			operationInfoText="@firearm_operation_semiauto_name"
+			ejectingShellEntity="BulletCasingSmall"
+			magazineEntity="pm63_mag"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="4.0"
+			ai_rangeMax="12.0"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Enemy_GruntPistolClose" rangeMeters="3"/>
+			<AttackType name="Enemy_GruntPistolMed" rangeMeters="8"/>
+			<AttackType name="Enemy_GruntPistolLong" rangeMeters="15"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds> 
+			<Equip name="pistol_eqp"/>
+			<Unequip name="pistol_neqp"/>
+			<Reload name="pistol_reld"/>
+			<ReloadEmpty name="pistol_reldempt"/>
+			<Fire name="tt33_fire"/>
+			<ShellDrop name="pistol_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+</Equipment>

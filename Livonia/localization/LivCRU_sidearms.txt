@@ -1,0 +1,2 @@
+@livonia_firearm_tt_33_name=TT-33
+@livonia_firearm_tt_33_desc=Grandfather's Tokarev. His service sidearm back in the days of the 3rd Martyrs Corps.\n\nHe only ever fired one shot with it.
